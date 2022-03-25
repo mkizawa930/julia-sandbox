@@ -1,7 +1,8 @@
 # Conv
 
+This is a julia package for convolutional code.
 
-## Encoding with Trellis
+## Convolutional Encoding
 
 ```julia
 using Conv
