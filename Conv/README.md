@@ -6,11 +6,11 @@
 ```julia
 using Conv
 
-# An array of octal number for shift register is required.
+# generate a 171 133 trellis(no feedback).
 trellis = poly2trellis([171 133])
 
-using Random
-rowbits = bitrand(100);
+import Random
+rowbits = Ranodm.bitrand(100);
 encodedbits = encode(rowbits, trellis=trellis)
 ```
 
